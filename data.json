@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "Wildfire Tracker",
+      "description": "Engineered a React-based single-page application to monitor global wildfire activity in real time by consuming NASA's EONET REST API. Designed modular React components with hooks to manage API calls, data fetching, and rendering lifecycle. Implemented asynchronous data pipelines with fetch/async-await to handle network latency and error states gracefully. Integrated geospatial visualization (Leaflet.js/Google Maps API) to map wildfire event coordinates dynamically with interactive markers.",
+      "technologies": ["React", "NASA EONET API", "JavaScript", "HTML/CSS", "Leaflet.js", "Google Maps API"],
+      "date": "October - November 2025",
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Pintos Operating System",
+      "description": "Expanded on Pintos to simulate real-world OS development challenges and gain hands-on experience with OS fundamentals. Implemented system calls for user programs, handling user-kernel mode transitions and ensuring argument passing on the stack. Added virtual memory with demand paging & stack growth and integrated synchronization constructs to eliminate race conditions. Converted existing single-threaded file system into multi-threaded file system to incorporate concurrency & parallelism.",
+      "technologies": ["C", "Git", "Shell", "GitLab"],
+      "date": "October - December 2024",
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Fraud Detection Using ML",
+      "description": "Built and evaluated a machine learning pipeline to classify fraudulent vs. legitimate credit card transactions on a highly imbalanced dataset. Applied preprocessing techniques including feature scaling, train-test splitting, and SMOTE oversampling to address class imbalance. Implemented multiple models (Logistic Regression, Random Forest, Gradient Boosted Trees) and optimized hyperparameters using GridSearchCV. Visualized model performance with ROC curves, confusion matrices, and precision-recall tradeoffs.",
+      "technologies": ["Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+      "date": "October - November 2025",
+      "url": "",
+      "github": ""
+    }
+  ],
+  "skills": {
+    "Programming Languages": ["Java", "C", "Python", "Clojure", "SQL", "JavaScript (ES6+)", "HTML5", "CSS3"],
+    "Frameworks & Libraries": ["React", "Node.js", "TensorFlow", "PyTorch", "Pandas", "NumPy", "Scikit-Learn", "Matplotlib"],
+    "Cloud & DevOps": ["Amazon Web Services (AWS: EC2, S3, Lambda, DynamoDB, ElastiCache, CloudFormation VPC, SDK, CLI)", "Kubernetes", "Docker", "CI/CD Pipelines", "DevOps", "Serverless Architecture"],
+    "Developer Tools": ["Git", "GitHub", "GitLab", "VSCode", "IntelliJ", "Eclipse", "Jupyter Notebook", "RStudio", "WordPress"]
+  }
+}
