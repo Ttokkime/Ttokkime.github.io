@@ -92,143 +92,23 @@
             <h2 class="text-sm font-semibold tracking-tight uppercase">
               Projects
             </h2>
-            <p class="text-sm text-zinc-500">Selected work (placeholders)</p>
           </div>
 
-          <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
-            <!-- Card -->
-            <article
-              class="rounded-2xl border border-zinc-200 p-5 hover:border-zinc-300 hover:bg-zinc-50 transition-colors"
-            >
-              <div class="flex items-center justify-between gap-4">
-                <h3 class="font-medium tracking-tight">Pictionary AI</h3>
-                <span
-                  class="inline-flex items-center rounded-full border border-zinc-200 bg-white px-2 py-0.5 text-xs text-zinc-600"
-                  >In progress</span
-                >
-              </div>
-              <p class="mt-2 text-sm leading-relaxed text-zinc-600">
-                Multiplayer drawing + guessing, with lightweight AI hints and
-                moderation tools.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-2 text-xs text-zinc-600">
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Web</span
-                >
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >ML</span
-                >
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Realtime</span
-                >
-              </div>
-              <div class="mt-5">
-                <a
-                  href="#"
-                  class="text-sm text-zinc-700 hover:text-zinc-900 underline underline-offset-4"
-                  >Details (soon)</a
-                >
-              </div>
-            </article>
+          <div id="project-grid" class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <!-- Projects will be populated by JavaScript -->
+          </div>
+        </section>
 
-            <!-- Card -->
-            <article
-              class="rounded-2xl border border-zinc-200 p-5 hover:border-zinc-300 hover:bg-zinc-50 transition-colors"
-            >
-              <div class="flex items-center justify-between gap-4">
-                <h3 class="font-medium tracking-tight">CKAD Study Tool</h3>
-                <span
-                  class="inline-flex items-center rounded-full border border-zinc-200 bg-white px-2 py-0.5 text-xs text-zinc-600"
-                  >Prototype</span
-                >
-              </div>
-              <p class="mt-2 text-sm leading-relaxed text-zinc-600">
-                Fast drills, spaced repetition, and command snippets for the
-                Kubernetes CKAD exam.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-2 text-xs text-zinc-600">
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Kubernetes</span
-                >
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >CLI</span
-                >
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Learning</span
-                >
-              </div>
-              <div class="mt-5">
-                <a
-                  href="#"
-                  class="text-sm text-zinc-700 hover:text-zinc-900 underline underline-offset-4"
-                  >Details (soon)</a
-                >
-              </div>
-            </article>
+        <!-- Skills -->
+        <section id="skills" class="py-16 sm:py-20 border-t border-zinc-100">
+          <div class="flex items-baseline justify-between gap-6">
+            <h2 class="text-sm font-semibold tracking-tight uppercase">
+              Skills
+            </h2>
+          </div>
 
-            <!-- Card -->
-            <article
-              class="rounded-2xl border border-zinc-200 p-5 hover:border-zinc-300 hover:bg-zinc-50 transition-colors"
-            >
-              <div class="flex items-center justify-between gap-4">
-                <h3 class="font-medium tracking-tight">Small Tools</h3>
-                <span
-                  class="inline-flex items-center rounded-full border border-zinc-200 bg-white px-2 py-0.5 text-xs text-zinc-600"
-                  >Ongoing</span
-                >
-              </div>
-              <p class="mt-2 text-sm leading-relaxed text-zinc-600">
-                A collection of tiny utilities: formatters, checklists, and
-                scripts that save time.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-2 text-xs text-zinc-600">
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Automation</span
-                >
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >DX</span
-                >
-              </div>
-              <div class="mt-5">
-                <a
-                  href="#"
-                  class="text-sm text-zinc-700 hover:text-zinc-900 underline underline-offset-4"
-                  >Details (soon)</a
-                >
-              </div>
-            </article>
-
-            <!-- Card -->
-            <article
-              class="rounded-2xl border border-zinc-200 p-5 hover:border-zinc-300 hover:bg-zinc-50 transition-colors"
-            >
-              <div class="flex items-center justify-between gap-4">
-                <h3 class="font-medium tracking-tight">Portfolio Notes</h3>
-                <span
-                  class="inline-flex items-center rounded-full border border-zinc-200 bg-white px-2 py-0.5 text-xs text-zinc-600"
-                  >Draft</span
-                >
-              </div>
-              <p class="mt-2 text-sm leading-relaxed text-zinc-600">
-                Short write-ups about decisions, trade-offs, and what I learned
-                building projects.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-2 text-xs text-zinc-600">
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Writing</span
-                >
-                <span class="rounded-full border border-zinc-200 px-2 py-1"
-                  >Design</span
-                >
-              </div>
-              <div class="mt-5">
-                <a
-                  href="#"
-                  class="text-sm text-zinc-700 hover:text-zinc-900 underline underline-offset-4"
-                  >Details (soon)</a
-                >
-              </div>
-            </article>
+          <div id="skills-container" class="mt-10">
+            <!-- Skills will be populated by JavaScript -->
           </div>
         </section>
 
@@ -285,5 +165,6 @@
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
+    <script src="portfolio.js"></script>
   </body>
 </html>
