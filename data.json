@@ -23,6 +23,14 @@
       "date": "October - November 2025",
       "url": "",
       "github": ""
+    },
+    {
+      "name": "StudyBuddy UT",
+      "description": "Developed a full-stack social matching platform during the 24-hour WiCS Hacks to pair UT Austin students with study partners. Engineered a custom matching algorithm that weights academic compatibility factors including course schedule, preferred study environment, and availability. Built a responsive UI for student profiles and real-time collaboration using a modern web stack. Integrated authentication and secure data storage to manage student academic preferences and contact information.",
+      "technologies": ["React", "Node.js", "JavaScript (ES6+)", "Firebase", "Tailwind CSS"],
+      "date": "February 2026",
+      "url": "https://ttokkime.github.io/WiCS-Hackathon-2026",
+      "github": "https://github.com/k1404635/WiCS-Hackathon-2026"
     }
   ],
   "skills": {
