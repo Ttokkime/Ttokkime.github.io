@@ -2,28 +2,28 @@
   "projects": [
     {
       "name": "StudySync",
-      "description": "WiCS Hackathon 2026 Project: Developed a full-stack social matching platform during the 24-hour WiCS Hacks to pair UT Austin students with study partners. Engineered a custom matching algorithm that weights academic compatibility factors including course schedule, preferred study environment, and availability. Built a responsive UI for student profiles and real-time collaboration using a modern web stack. Integrated authentication and secure data storage to manage student academic preferences and contact information.",
+      "description": "A full-stack social matching platform that pairs UT Austin students with study partners based on academic compatibility.",
       "technologies": ["React", "Node.js", "JavaScript (ES6+)", "Firebase", "Tailwind CSS"],
       "url": "https://ttokkime.github.io/WiCS-Hackathon-2026",
       "github": "https://github.com/k1404635/WiCS-Hackathon-2026"
     },
     {
       "name": "Pintos Operating System",
-      "description": "Expanded on Pintos to simulate real-world OS development challenges and gain hands-on experience with OS fundamentals. Implemented system calls for user programs, handling user-kernel mode transitions and ensuring argument passing on the stack. Added virtual memory with demand paging & stack growth and integrated synchronization constructs to eliminate race conditions. Converted existing single-threaded file system into multi-threaded file system to incorporate concurrency & parallelism.",
+      "description": "An operating system project that implements system calls, virtual memory, and multi-threaded file systems.",
       "technologies": ["C", "Git", "Shell", "GitLab"],
       "url": "",
       "github": ""
     },
     {
       "name": "Wildfire Tracker",
-      "description": "Engineered a React-based single-page application to monitor global wildfire activity in real time by consuming NASA's EONET REST API. Designed modular React components with hooks to manage API calls, data fetching, and rendering lifecycle. Implemented asynchronous data pipelines with fetch/async-await to handle network latency and error states gracefully. Integrated geospatial visualization (Leaflet.js/Google Maps API) to map wildfire event coordinates dynamically with interactive markers.",
+      "description": "A React-based web application that monitors global wildfire activity in real-time using NASA's EONET API.",
       "technologies": ["React", "NASA EONET API", "JavaScript", "HTML/CSS", "Leaflet.js", "Google Maps API"],
       "url": "",
       "github": ""
     },
     {
       "name": "Fraud Detection Using ML",
-      "description": "Built and evaluated a machine learning pipeline to classify fraudulent vs. legitimate credit card transactions on a highly imbalanced dataset. Applied preprocessing techniques including feature scaling, train-test splitting, and SMOTE oversampling to address class imbalance. Implemented multiple models (Logistic Regression, Random Forest, Gradient Boosted Trees) and optimized hyperparameters using GridSearchCV. Visualized model performance with ROC curves, confusion matrices, and precision-recall tradeoffs.",
+      "description": "A machine learning pipeline that classifies fraudulent credit card transactions using various ML models.",
       "technologies": ["Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib"],
       "url": "",
       "github": ""
