@@ -47,7 +47,9 @@
   <body class="bg-white text-zinc-900 antialiased page-fade-in">
     <div class="mx-auto max-w-3xl px-6">
       <!-- Header -->
-      <header class="flex items-center justify-between py-10">
+      <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-zinc-100">
+        <div class="mx-auto max-w-3xl px-6">
+          <div class="flex items-center justify-between py-10">
         <a href="#top" class="text-sm font-medium tracking-tight">Jamie</a>
         <nav class="flex items-center gap-4">
           <a href="#projects" class="text-sm text-zinc-600 hover:text-zinc-900">Projects</a>
@@ -91,9 +93,10 @@
             </a>
           </div>
         </nav>
+        </div>
       </header>
 
-      <main id="top">
+      <main id="top" class="pt-24">
         <!-- About Me -->
         <section class="py-16 sm:py-24">
           <h1 class="text-5xl sm:text-6xl font-bold tracking-tight text-zinc-900 mb-2">
