@@ -2,14 +2,14 @@
   "projects": [
     {
       "name": "StudySync",
-      "description": "A full-stack social matching platform that pairs UT Austin students with study partners based on academic compatibility.",
+      "description": "A full-stack social matching platform made for WiCS Hackathon 2026 that pairs UT Austin students with study partners based on academic compatibility.",
       "technologies": ["React", "Node.js", "JavaScript (ES6+)", "Firebase", "Tailwind CSS"],
       "url": "",
       "github": "https://github.com/k1404635/WiCS-Hackathon-2026"
     },
     {
       "name": "Pintos Operating System",
-      "description": "An operating system project that implements system calls, virtual memory, and multi-threaded file systems.",
+      "description": "An operating system project that implements system calls, virtual memory, and multi-threaded file systems made for CS439: Principles of Computer Systems.",
       "technologies": ["C", "Git", "Shell", "GitLab"],
       "url": "",
       "github": ""
