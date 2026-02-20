@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jamie — Portfolio</title>
+    <title>Notes — Jamie</title>
     <meta
       name="description"
-      content="Jamie — minimalist portfolio. Projects, writing, and ways to connect."
+      content="Notes and thoughts by Jamie."
     />
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -48,9 +48,9 @@
     <div class="mx-auto max-w-3xl px-6">
       <!-- Header -->
       <header class="flex items-center justify-between py-10">
-        <a href="#top" class="text-sm font-medium tracking-tight">Jamie</a>
+        <a href="index.html" class="text-sm font-medium tracking-tight">Jamie</a>
         <nav class="flex items-center gap-4">
-          <a href="#projects" class="text-sm text-zinc-600 hover:text-zinc-900">Projects</a>
+          <a href="index.html#projects" class="text-sm text-zinc-600 hover:text-zinc-900">Projects</a>
           <a href="notes.html" class="text-sm text-zinc-600 hover:text-zinc-900">Notes</a>
           <div class="flex items-center gap-3 ml-4">
             <!-- Gmail Icon -->
@@ -93,41 +93,13 @@
         </nav>
       </header>
 
-      <main id="top">
-        <!-- About Me -->
+      <main>
+        <!-- Notes Header -->
         <section class="py-16 sm:py-24">
-          <h1 class="text-5xl sm:text-6xl font-bold tracking-tight text-zinc-900 mb-2">
-            Jamie Lee
+          <h1 class="text-5xl sm:text-6xl font-bold tracking-tight text-zinc-900">
+            Notes
           </h1>
-          <h2 class="text-lg sm:text-xl font-normal text-zinc-600 mb-8">
-            CS at UT Austin
-          </h2>
-          <p class="text-base sm:text-lg leading-relaxed text-zinc-700 mb-10 max-w-2xl">
-            I am a Computer Science student at UT Austin.
-          </p>
-          <div class="flex flex-wrap items-center gap-3">
-            <span class="text-sm font-medium text-zinc-500">Technologies:</span>
-            <span class="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-700">Python</span>
-            <span class="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-700">Java</span>
-            <span class="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-700">C</span>
-            <span class="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-700">React</span>
-            <span class="inline-flex items-center rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-700">AWS</span>
-          </div>
         </section>
-
-        <!-- Projects -->
-        <section id="projects" class="py-16 sm:py-20 border-t border-zinc-100">
-          <div class="flex items-baseline justify-between gap-6">
-            <h2 class="text-sm font-semibold tracking-tight uppercase">
-              Projects
-            </h2>
-          </div>
-
-          <div id="project-grid" class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
-            <!-- Projects will be populated by JavaScript -->
-          </div>
-        </section>
-
       </main>
 
       <!-- Footer -->
@@ -135,8 +107,9 @@
         <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>© <span id="year"></span> Jamie</div>
           <div class="flex gap-4">
-            <a class="hover:text-zinc-900" href="#top">Top</a>
-            <a class="hover:text-zinc-900" href="#projects">Projects</a>
+            <a class="hover:text-zinc-900" href="index.html">Home</a>
+            <a class="hover:text-zinc-900" href="index.html#projects">Projects</a>
+            <a class="hover:text-zinc-900" href="notes.html">Notes</a>
           </div>
         </div>
       </footer>
@@ -145,6 +118,5 @@
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-    <script src="portfolio.js"></script>
   </body>
 </html>
